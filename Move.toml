@@ -1,0 +1,15 @@
+[package]
+name = "prescription_tracker"
+version = "1.0.0"
+authors = []
+
+[addresses]
+PrescriptionTracker = '0x9339c4809366e7aa59ff13e8cd70b16bf4ff252eadd33451bf54e67e95010bcb'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
